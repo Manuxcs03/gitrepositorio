@@ -1,0 +1,45 @@
+# Cobble Battle AI: cambios generales
+
+## Qué estaba demasiado ajustado a combates concretos
+
+Cada derrota añadía un test de repetición (`Tower*Replay`) y una regla para ese caso. Casi todas las reglas
+ya eran generales, pero algunas partes solo funcionaban bien con tu equipo de sol o con los rivales de la Torre:
+
+| Antes | Problema | Ahora |
+|---|---|---|
+| El peligro al cambiar (`switchInDanger`, `entryDanger`, `outrunKo`, `comboDanger`) solo contaba movimientos **ya revelados** | Un rival que acaba de salir no ha enseñado nada, así que parecía inofensivo, que es justo cuando se deja un Pokémon con debilidad x4 delante (Garchomp contra Mewtwo con Rayo Hielo en el combate 31) | Cuentan también los movimientos probables no vistos, cada uno pesado por su probabilidad (`Planner.threatWeight`). Los que tienen menos de un 30 % no cuentan, y si el rival es más lento solo cuentan los revelados |
+| "Quién ataca primero" comparaba la Velocidad a secas | Con Espacio Raro el rival lento ataca primero, y un Canto Helado o un Golpe Bajo ignoran la Velocidad | `Speed.movesFirst` tiene en cuenta Espacio Raro, y el cálculo de "me tumba antes de moverme" incluye los movimientos con prioridad |
+| Probabilidad de Viento Afín por **especie** (tabla medida en la Torre) | Cualquier especie que no esté en la tabla recibía un 10 % aunque tuviera Bromista | Cualquier Pokémon que pueda tener Bromista cuenta como posible usuario de Viento Afín (≥45 %) |
+| Movimientos adivinados, cada uno por separado | Si el rival ya enseñó Garra Dragón, se seguía temiendo un Enfado adivinado | Un ataque adivinado del mismo tipo y categoría que uno ya revelado cuenta la mitad (Avalancha con Roca Afilada sigue contando entera, porque uno es de área y el otro no) |
+
+Ningún test anterior cambia de decisión. Todos siguen pasando.
+
+## Tests nuevos que no dependen de tu equipo
+
+- `GeneralScenarios`: equipos de lluvia, Espacio Raro, arena e individuales, sin nada que ver con tu equipo de sol.
+  En los casos de peligro, el margen entre la opción segura y la peligrosa pasa de 0.46 a 0.86 (Espacio Raro)
+  y de 0.27 a 1.17 (cobertura oculta).
+- `FuzzScenarios`: 120 tableros aleatorios (tipos, stats, movimientos, clima, Espacio Raro y Viento Afín
+  al azar). Comprueba que la jugada siempre es legal, que nada peta, que nunca ataca a un objetivo inmune
+  teniendo otra opción y que cada decisión tarda poco (unos 25 ms de media).
+
+Para ejecutarlo todo sin Minecraft: `./run-scenarios.sh`
+
+## Motor en vivo (modo SUGERIR)
+
+El mod ya tenía un modo en el que piensa pero no juega:
+
+- **K**: cambia de modo (APAGADA → SUGERIR → AUTO).
+- **J**: juega la sugerencia (en SUGERIR).
+- **H** (nuevo): muestra u oculta el panel detallado.
+
+El panel detallado (activo por defecto, `hudDetail` en `config/cobblebattleai.json`) muestra ahora:
+
+1. La mejor jugada y el daño previsto (esto ya existía).
+2. Alternativas, con cuánto peor es cada una.
+3. **Decisión ajustada**, cuando la segunda opción es casi igual de buena. Ahí cuenta tu lectura del rival.
+4. **Rival probable**: qué va a hacer cada rival y con qué probabilidad (p. ej. `Mewtwo: Rayo Hielo? -> Garchomp 45%`). El `?` indica un movimiento que todavía no ha usado.
+5. **Cuidado**: qué Pokémon tuyo puede caer antes de moverse, y por qué movimiento.
+6. PS restantes de cada lado, contados en Pokémon.
+
+Todo esto se escribe también en `latest.log` con la etiqueta `[AI-ADVICE]`, para revisar los combates perdidos.
