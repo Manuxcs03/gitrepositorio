@@ -196,7 +196,15 @@ public final class BattleDriver {
             Planner.Options opt = options(cfg, invalidRetries > 0);
             final BattleState st = snapshot.state;
             final List<Planner.SlotRequest> srs = snapshot.slotRequests;
-            future = EXEC.submit(() -> new Planner(opt).decide(st, srs));
+            future = EXEC.submit(() -> {
+                Planner.Plan p = new Planner(opt).decide(st, srs);
+                try {
+                    p.advice = com.manueeh.cobbleai.engine.Advisor.advise(st, p);
+                } catch (Exception e) {
+                    CobbleBattleAI.LOG.warn("Advice failed", e);
+                }
+                return p;
+            });
             phase = Phase.THINKING;
             return;
         }
@@ -339,6 +347,7 @@ public final class BattleDriver {
         }
         CobbleBattleAI.LOG.info("[AI] {} (eval {}, {} us) {}", sb, String.format("%.3f", p.value), p.micros, p.notes);
         CobbleBattleAI.LOG.info("[AI-STATE] {}", describeBoard(snapshot.state));
+        if (p.advice != null) CobbleBattleAI.LOG.info("[AI-ADVICE] {}", p.advice);
         if (cfg.logToChat && mc.player != null) {
             mc.gui.getChat().addMessage(Component.literal("[AI] ").withStyle(ChatFormatting.AQUA)
                 .append(Component.literal(sb.toString()).withStyle(ChatFormatting.WHITE)));

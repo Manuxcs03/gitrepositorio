@@ -45,6 +45,16 @@ public final class Speed {
     }
 
     /**
+     * True when {@code a} surely moves before {@code b} with moves of the same priority: faster, or slower
+     * under Trick Room. A speed tie counts as not first.
+     */
+    public static boolean movesFirst(Battler a, Battler b, Field field) {
+        double sa = effective(a, field), sb = effective(b, field);
+        if (Math.abs(sa - sb) < 0.5) return false;
+        return field != null && field.trickRoom ? sa < sb : sa > sb;
+    }
+
+    /**
      * Probability that {@code a} acts before {@code b} given their chosen move priorities.
      * Speed ties are a coin flip.
      */

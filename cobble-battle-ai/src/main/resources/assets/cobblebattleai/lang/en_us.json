@@ -11,5 +11,10 @@
   "cobblebattleai.hud.thinking": "Thinking...",
   "cobblebattleai.hud.error": "Error: %s",
   "cobblebattleai.hud.alternatives": "Next best: %s",
-  "cobblebattleai.hud.press_execute": "Press %s to play it"
+  "cobblebattleai.hud.press_execute": "Press %s to play it",
+  "key.cobblebattleai.detail": "Toggle detailed AI panel",
+  "cobblebattleai.hud.close_call": "Close call: the alternatives are almost as good, your read of the rival decides",
+  "cobblebattleai.hud.foe_moves": "Rival likely: %s",
+  "cobblebattleai.hud.danger": "Careful: %s may fall before moving (%s from %s, %s%%)",
+  "cobblebattleai.hud.material": "HP left (in Pokémon): you %s vs rival %s"
 }

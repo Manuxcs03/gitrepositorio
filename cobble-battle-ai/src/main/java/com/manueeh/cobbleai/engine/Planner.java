@@ -67,6 +67,8 @@ public final class Planner {
         public final List<Scored> ranking = new ArrayList<>();
         public final List<String> notes = new ArrayList<>();
         public long micros;
+        /** Live advice for the HUD (filled by the driver after deciding; null inside the search). */
+        public Advisor.Advice advice;
     }
 
     /** Candidate actions per slot kept for the joint search (after quick pruning). */
@@ -664,13 +666,37 @@ public final class Planner {
             if (foe == null || !foe.alive()) continue;
             double best = 0;
             for (MoveInfo m : foe.moves) {
-                if (!m.revealed || !m.isDamaging() || !m.usable()) continue;
-                double d = DamageCalc.calc(foe, in, m, s.field, false, s.doubles, m.isSpread(), false).expected();
+                double w = threatWeight(foe, m);
+                if (w <= 0) continue;
+                double d = w * DamageCalc.calc(foe, in, m, s.field, false, s.doubles, m.isSpread(), false).expected();
                 best = Math.max(best, m.isSpread() || !s.doubles ? d : 0.5 * d);
             }
             sum += best;
         }
         return sum >= in.hp ? 0.45 : 0;
+    }
+
+    /** Guessed moves count for danger only from this likelihood on: below it they are mostly noise. */
+    private static final double MIN_GUESS_THREAT = 0.3;
+
+    /**
+     * How much a foe's move counts when judging danger: fully once shown, by the chance it really is in the set
+     * while only guessed (movepool / memory), and not at all when that chance is small. Judging danger on shown
+     * moves alone left every fresh foe looking harmless: the first time a foe appears nothing is revealed, and
+     * that is exactly when a 4x-weak Pokemon is left in front of it (Ice Beam on a Ground/Dragon, Rock Slide on a
+     * Fire/Flying, Earth Power on a Fire/Steel...).
+     */
+    static double threatWeight(Battler foe, MoveInfo m) {
+        if (!m.isDamaging() || !m.usable()) return 0;
+        if (foe.lockedMove != null && !foe.lockedMove.equals(m.id)) return 0;
+        if (MoveDex.FIRST_TURN_ONLY.contains(m.id) && foe.turnsActive > 0) return 0;
+        if (m.revealed) return 1;
+        // A foe that already showed its full set has nothing left to hide.
+        int shown = 0;
+        for (MoveInfo x : foe.moves) if (x.revealed) shown++;
+        if (shown >= 4) return 0;
+        double e = OpponentModel.existence(foe, m);
+        return e >= MIN_GUESS_THREAT ? e : 0;
     }
 
     /**
@@ -684,32 +710,49 @@ public final class Planner {
         for (int k = 0; k < s.slots(); k++) {
             Battler foe = s.opp(k);
             if (foe == null || !foe.alive()) continue;
-            boolean foeFaster = Speed.effective(foe, s.field) > Speed.effective(in, s.field);
-            double worst = 0;
+            boolean foeFaster = Speed.movesFirst(foe, in, s.field);
+            double shown = 0, guessedMiss = 1;
             for (MoveInfo m : foe.moves) {
-                if (!m.revealed || !m.isDamaging() || !m.usable()) continue;
+                double w = threatWeight(foe, m);
+                // A guessed attack from a slower foe leaves us a move to answer it first: only shown ones count then.
+                if (w <= 0 || (!m.revealed && !foeFaster)) continue;
                 DamageCalc.Result r = DamageCalc.calc(foe, in, m, s.field, false, s.doubles, m.isSpread(), false);
                 if (r.koChance(in.hp) < minKo) continue;
-                double ko = r.koChance(in.hp) * DamageCalc.hitChance(foe, in, m, s.field);
-                worst = Math.max(worst, ko * (m.isSpread() && s.doubles ? 1.5 : 1.0));
+                double ko = r.koChance(in.hp) * DamageCalc.hitChance(foe, in, m, s.field) * (m.isSpread() && s.doubles ? 1.5 : 1.0);
+                if (m.revealed) shown = Math.max(shown, ko);
+                else guessedMiss *= 1 - Math.min(1, w * ko);
             }
+            // Several guessed answers add up (it needs only one of them), but never beyond a shown one-shot.
+            double worst = Math.max(shown, 1 - guessedMiss);
             cost += worst * (foeFaster ? 0.6 : 0.2);
         }
         return cost;
     }
 
-    /** A faster foe has a revealed attack with at least an even chance to knock {@code b} out this turn. */
+    /**
+     * A foe that moves first has an attack with at least an even chance to knock {@code b} out this turn: shown,
+     * or guessed with enough likelihood (all its likely guesses together).
+     */
     private static boolean outrunKo(BattleState s, Battler b) {
-        if (b == null || !b.alive()) return false;
+        return outrunKoChance(s, b) >= 0.5;
+    }
+
+    /** Chance that some foe moving first holds an attack that likely knocks {@code b} out this turn. */
+    static double outrunKoChance(BattleState s, Battler b) {
+        if (b == null || !b.alive()) return 0;
+        double safe = 1;
         for (int k = 0; k < s.slots(); k++) {
             Battler foe = s.opp(k);
-            if (foe == null || !foe.alive() || Speed.effective(foe, s.field) <= Speed.effective(b, s.field)) continue;
+            if (foe == null || !foe.alive()) continue;
+            boolean first = Speed.movesFirst(foe, b, s.field);
             for (MoveInfo m : foe.moves) {
-                if (!m.revealed || !m.isDamaging() || !m.usable()) continue;
-                if (DamageCalc.calc(foe, b, m, s.field, false, s.doubles, false, false).koChance(b.hp) >= 0.5) return true;
+                double w = threatWeight(foe, m);
+                // A priority attack (Ice Shard, Sucker Punch...) lands first whatever the speeds.
+                if (w <= 0 || !(first || Speed.priority(foe, m, s.field) > 0)) continue;
+                if (DamageCalc.calc(foe, b, m, s.field, false, s.doubles, false, false).koChance(b.hp) >= 0.5) safe *= 1 - w;
             }
         }
-        return false;
+        return 1 - safe;
     }
 
     /**

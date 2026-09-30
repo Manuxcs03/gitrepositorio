@@ -5,6 +5,7 @@ import com.manueeh.cobbleai.AiConfig;
 import com.manueeh.cobbleai.BattleDriver;
 import com.manueeh.cobbleai.bridge.StateBuilder;
 import com.manueeh.cobbleai.engine.Action;
+import com.manueeh.cobbleai.engine.Advisor;
 import com.manueeh.cobbleai.engine.Planner;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
@@ -23,6 +24,10 @@ public final class AiHud {
     private static final int GREY = 0xBBBBBB;
     private static final int DARK_GREY = 0x888888;
     private static final int GOLD = 0xFFD166;
+    private static final int FOE = 0xFF9E9E;
+    private static final int DANGER = 0xFF7043;
+    /** The panel never grows wider than this (GUI pixels); longer lines wrap. */
+    private static final int MAX_WIDTH = 380;
 
     public static void render(GuiGraphics g) {
         AiConfig cfg = AiConfig.get();
@@ -66,15 +71,42 @@ public final class AiHud {
                 }
                 add(lines, colors, Component.translatable("cobblebattleai.hud.alternatives", alt.toString()), DARK_GREY);
             }
+            Advisor.Advice adv = plan.advice;
+            if (cfg.hudDetail && adv != null) {
+                if (adv.closeCall) add(lines, colors, Component.translatable("cobblebattleai.hud.close_call"), GOLD);
+                if (!adv.foeMoves.isEmpty()) {
+                    List<String> parts = new ArrayList<>();
+                    for (Advisor.FoeMove f : adv.foeMoves) parts.add(f.toString());
+                    add(lines, colors, Component.translatable("cobblebattleai.hud.foe_moves", String.join(", ", parts)), FOE);
+                }
+                for (Advisor.Danger dg : adv.dangers) {
+                    add(lines, colors, Component.translatable("cobblebattleai.hud.danger", dg.mine,
+                        dg.move + (dg.guessed ? "?" : ""), dg.foe, dg.percent), DANGER);
+                }
+                add(lines, colors, Component.translatable("cobblebattleai.hud.material",
+                    String.format(Locale.ROOT, "%.1f", adv.myMaterial), String.format(Locale.ROOT, "%.1f", adv.oppMaterial)), DARK_GREY);
+            }
             if (d.phase() == BattleDriver.Phase.READY && cfg.mode == AiConfig.Mode.SUGGEST) {
                 add(lines, colors, Component.translatable("cobblebattleai.hud.press_execute",
                     CobbleKeys.EXECUTE.getTranslatedKeyMessage()), GOLD);
             }
         }
 
+        // Long lines (alternatives, foe moves) wrap instead of running off the screen.
+        int maxWidth = Math.max(80, Math.min(MAX_WIDTH, g.guiWidth() - 8));
+        List<Component> wrapped = new ArrayList<>();
+        List<Integer> wrappedColors = new ArrayList<>();
+        for (int i = 0; i < lines.size(); i++) {
+            for (String part : wrap(font, lines.get(i).getString(), maxWidth)) {
+                wrapped.add(Component.literal(part));
+                wrappedColors.add(colors.get(i));
+            }
+        }
+        lines = wrapped;
+        colors = wrappedColors;
         int width = 0;
         for (Component c : lines) width = Math.max(width, font.width(c));
-        width = Math.min(width, g.guiWidth() - 8);
+        width = Math.min(width, maxWidth);
         int x = (g.guiWidth() - width) / 2;
         int y = 2;
         int h = lines.size() * (font.lineHeight + 1) + 3;
@@ -83,6 +115,27 @@ public final class AiHud {
             g.drawString(font, lines.get(i), x, y + 1, colors.get(i), false);
             y += font.lineHeight + 1;
         }
+    }
+
+    /** Splits {@code text} at spaces into pieces no wider than {@code maxWidth} (continuations are indented). */
+    private static List<String> wrap(Font font, String text, int maxWidth) {
+        List<String> out = new ArrayList<>();
+        if (font.width(Component.literal(text)) <= maxWidth) {
+            out.add(text);
+            return out;
+        }
+        StringBuilder cur = new StringBuilder();
+        for (String word : text.split(" ")) {
+            String next = cur.length() == 0 ? word : cur + " " + word;
+            if (cur.length() > 0 && font.width(Component.literal(next)) > maxWidth) {
+                out.add(cur.toString());
+                cur = new StringBuilder("   ").append(word);
+            } else {
+                cur = new StringBuilder(next);
+            }
+        }
+        if (cur.length() > 0) out.add(cur.toString());
+        return out;
     }
 
     private static void add(List<Component> lines, List<Integer> colors, Component c, int color) {

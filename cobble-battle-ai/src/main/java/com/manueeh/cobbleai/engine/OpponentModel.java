@@ -407,13 +407,28 @@ public final class OpponentModel {
         else if (m.isDamaging()) e = 0.35;
         else if (MoveDex.PROTECT.contains(m.id)) e = 0.35;
         else if ("helpinghand".equals(m.id) || MoveDex.SELF_BOOST.containsKey(m.id)) e = 0.1;
-        else if ("tailwind".equals(m.id)) e = TAILWIND_USERS.getOrDefault(self.species == null ? "" : self.species.toLowerCase(), 0.1);
+        else if ("tailwind".equals(m.id)) {
+            e = TAILWIND_USERS.getOrDefault(self.species == null ? "" : self.species.toLowerCase(), 0.1);
+            // Any Prankster support Pokemon, not just the species seen so far, is a likely Tailwind setter.
+            if (self.abilityChance("prankster") > 0) e = Math.max(e, 0.45);
+        }
         else if ("wideguard".equals(m.id) || "quickguard".equals(m.id)) e = 0.15;
         else e = 0.25;
         int revealed = 0;
         for (MoveInfo x : self.moves) if (x.revealed) revealed++;
         if (revealed >= 3) e *= 0.5;
         else if (revealed == 2) e *= 0.8;
+        // Sets rarely carry two attacks of the same type and category: a shown Dragon Claw makes a guessed Outrage
+        // unlikely. A spread + single-target pair (Rock Slide + Stone Edge) is the common exception.
+        if (m.isDamaging()) {
+            for (MoveInfo x : self.moves) {
+                if (!x.revealed || !x.isDamaging() || x.id.equals(m.id)) continue;
+                if (java.util.Objects.equals(x.type, m.type) && x.category == m.category && x.isSpread() == m.isSpread()) {
+                    e *= 0.5;
+                    break;
+                }
+            }
+        }
         // A trainer repeating the same known move turn after turn (#28 Herminia: Hitmontop Wide Guard 5 turns
         // in a row) is not hiding a better attack: its guessed moves are unlikely.
         if (self.lastMove != null && self.lastMoveStreak >= 2) e *= 0.4;

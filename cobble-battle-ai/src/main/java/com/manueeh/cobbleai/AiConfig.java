@@ -28,6 +28,8 @@ public final class AiConfig {
     /** 0 = trust the predicted enemy move, 1 = always assume the worst enemy move. */
     public double riskAversion = 0.35;
     public boolean showHud = true;
+    /** HUD also shows the foes' likely moves, which of ours may fall before moving and close calls. */
+    public boolean hudDetail = true;
     public boolean logToChat = false;
     /** Write every battle message to latest.log (prefix [AI-MSG]) so lost battles can be reviewed. */
     public boolean logBattleMessages = true;

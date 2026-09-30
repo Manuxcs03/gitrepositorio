@@ -15,8 +15,12 @@ public final class CobbleKeys {
     public static final KeyMapping EXECUTE = new KeyMapping("key.cobblebattleai.execute",
         InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_J, CATEGORY);
 
+    public static final KeyMapping DETAIL = new KeyMapping("key.cobblebattleai.detail",
+        InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_H, CATEGORY);
+
     public static void register() {
         KeyBindingHelper.registerKeyBinding(MODE);
         KeyBindingHelper.registerKeyBinding(EXECUTE);
+        KeyBindingHelper.registerKeyBinding(DETAIL);
     }
 }

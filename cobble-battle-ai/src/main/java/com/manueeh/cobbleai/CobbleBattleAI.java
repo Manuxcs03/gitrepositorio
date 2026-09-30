@@ -27,6 +27,7 @@ public final class CobbleBattleAI implements ClientModInitializer {
         ClientTickEvents.END_CLIENT_TICK.register(mc -> {
             while (CobbleKeys.MODE.consumeClick()) cycleMode(mc);
             while (CobbleKeys.EXECUTE.consumeClick()) BattleDriver.INSTANCE.requestExecute();
+            while (CobbleKeys.DETAIL.consumeClick()) toggleDetail();
             BattleDriver.INSTANCE.tick(mc);
         });
 
@@ -40,10 +41,17 @@ public final class CobbleBattleAI implements ClientModInitializer {
             ScreenKeyboardEvents.afterKeyPress(screen).register((s, key, scancode, mods) -> {
                 if (CobbleKeys.MODE.matches(key, scancode)) cycleMode(client);
                 else if (CobbleKeys.EXECUTE.matches(key, scancode)) BattleDriver.INSTANCE.requestExecute();
+                else if (CobbleKeys.DETAIL.matches(key, scancode)) toggleDetail();
             });
             ScreenEvents.afterRender(screen).register((s, graphics, mx, my, delta) -> AiHud.render(graphics));
         });
         LOG.info("Cobble Battle AI ready (mode {})", AiConfig.get().mode);
+    }
+
+    private static void toggleDetail() {
+        AiConfig cfg = AiConfig.get();
+        cfg.hudDetail = !cfg.hudDetail;
+        cfg.save();
     }
 
     private static void cycleMode(Minecraft mc) {
