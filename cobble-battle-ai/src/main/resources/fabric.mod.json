@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblebattleai",
+  "version": "${version}",
+  "name": "Cobble Battle AI",
+  "description": "Client-side battle AI for Cobblemon: picks moves, targets and switches for singles and doubles.",
+  "authors": ["Manueeh"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.manueeh.cobbleai.CobbleBattleAI"]
+  },
+  "mixins": ["cobblebattleai.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.7.0",
+    "java": ">=21"
+  }
+}

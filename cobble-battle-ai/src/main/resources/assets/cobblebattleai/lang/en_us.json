@@ -1,0 +1,15 @@
+{
+  "key.categories.cobblebattleai": "Cobble Battle AI",
+  "key.cobblebattleai.mode": "Cycle AI mode (Off / Suggest / Auto)",
+  "key.cobblebattleai.execute": "Execute AI suggestion",
+  "cobblebattleai.mode.off": "OFF",
+  "cobblebattleai.mode.suggest": "SUGGEST",
+  "cobblebattleai.mode.auto": "AUTO",
+  "cobblebattleai.mode_changed": "Battle AI: %s",
+  "cobblebattleai.hud.title": "Battle AI [%s]",
+  "cobblebattleai.hud.waiting": "Waiting for the turn to settle...",
+  "cobblebattleai.hud.thinking": "Thinking...",
+  "cobblebattleai.hud.error": "Error: %s",
+  "cobblebattleai.hud.alternatives": "Next best: %s",
+  "cobblebattleai.hud.press_execute": "Press %s to play it"
+}

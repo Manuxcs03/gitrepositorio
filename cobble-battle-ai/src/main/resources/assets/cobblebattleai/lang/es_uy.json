@@ -1,0 +1,15 @@
+{
+  "key.categories.cobblebattleai": "Cobble Battle AI",
+  "key.cobblebattleai.mode": "Cambiar modo IA (Apagada / Sugerir / Auto)",
+  "key.cobblebattleai.execute": "Ejecutar sugerencia de la IA",
+  "cobblebattleai.mode.off": "APAGADA",
+  "cobblebattleai.mode.suggest": "SUGERIR",
+  "cobblebattleai.mode.auto": "AUTO",
+  "cobblebattleai.mode_changed": "IA de combate: %s",
+  "cobblebattleai.hud.title": "IA de combate [%s]",
+  "cobblebattleai.hud.waiting": "Esperando a que termine el turno...",
+  "cobblebattleai.hud.thinking": "Pensando...",
+  "cobblebattleai.hud.error": "Error: %s",
+  "cobblebattleai.hud.alternatives": "Alternativas: %s",
+  "cobblebattleai.hud.press_execute": "Pulsa %s para jugarla"
+}

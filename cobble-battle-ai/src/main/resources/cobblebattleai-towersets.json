@@ -1,0 +1,5972 @@
+{
+ "rosters": {
+  "Aprendiza Marina": [
+   "conkeldurr",
+   "cofagrigus",
+   "escavalier",
+   "bronzong"
+  ],
+  "Artista Emma": [
+   "camerupt",
+   "sableye",
+   "mandibuzz",
+   "crustle"
+  ],
+  "As Bibiana": [
+   "keldeo",
+   "lucario",
+   "aerodactyl",
+   "amoonguss"
+  ],
+  "As Cayetano": [
+   "raikou",
+   "scrafty",
+   "salamence",
+   "amoonguss"
+  ],
+  "Atleta Bruna": [
+   "dusclops",
+   "mawile",
+   "kangaskhan",
+   "slowbro"
+  ],
+  "Bailarin Adan": [
+   "hitmontop",
+   "volcarona",
+   "aerodactyl",
+   "garchomp"
+  ],
+  "Baron Evaristo": [
+   "cresselia",
+   "kyogre",
+   "swampert"
+  ],
+  "Baronesa Casandra": [
+   "bronzong",
+   "palkia",
+   "mawile",
+   "ludicolo"
+  ],
+  "Boxeadora Nagore": [
+   "whimsicott",
+   "metagross",
+   "garchomp",
+   "rotom"
+  ],
+  "Caballero Godofredo": [
+   "mawile",
+   "dialga",
+   "gallade",
+   "cresselia"
+  ],
+  "Campeon Fulgencio": [
+   "articuno",
+   "froslass",
+   "sableye",
+   "rotom"
+  ],
+  "Campeona Amalia": [
+   "amoonguss",
+   "salamence",
+   "cresselia",
+   "togekiss"
+  ],
+  "Campista Nacho": [
+   "kingdra",
+   "pelipper",
+   "gyarados",
+   "amoonguss"
+  ],
+  "Cazador Efren": [
+   "galvantula",
+   "gastrodon",
+   "salamence",
+   "scrafty"
+  ],
+  "Centurion Aureo": [
+   "kyogre",
+   "crobat",
+   "kangaskhan",
+   "gengar"
+  ],
+  "Chef Valeria": [
+   "metagross",
+   "crobat",
+   "hitmontop",
+   "gastrodon"
+  ],
+  "Ciclista Olga": [
+   "gliscor",
+   "salamence",
+   "sableye",
+   "ambipom"
+  ],
+  "Comandante Delia": [
+   "pelipper",
+   "dragonite",
+   "landorus",
+   "rotom"
+  ],
+  "Detective Casimiro": [
+   "venusaur",
+   "arcanine",
+   "hitmontop",
+   "charizard"
+  ],
+  "Domadora Zoe": [
+   "conkeldurr",
+   "metagross",
+   "jellicent",
+   "amoonguss"
+  ],
+  "Duelista Ainara": [
+   "suicune",
+   "charizard",
+   "bisharp",
+   "whimsicott"
+  ],
+  "Duelista Horacio": [
+   "metagross",
+   "hitmontop",
+   "gastrodon",
+   "cresselia"
+  ],
+  "Elite Adriano": [
+   "landorus",
+   "cresselia",
+   "excadrill",
+   "latios"
+  ],
+  "Elite Noelia": [
+   "hitmontop",
+   "latios",
+   "zapdos",
+   "landorus"
+  ],
+  "Entrenador Sebastian": [
+   "glaceon",
+   "froslass",
+   "gyarados",
+   "hariyama"
+  ],
+  "Entrenadora Lorena": [
+   "torkoal",
+   "scrafty",
+   "gallade"
+  ],
+  "Escaladora Maite": [
+   "kangaskhan",
+   "gothitelle",
+   "lapras",
+   "crobat"
+  ],
+  "Estratega Boris": [
+   "garchomp",
+   "gardevoir",
+   "whimsicott",
+   "metagross"
+  ],
+  "Estudiante Hector": [
+   "excadrill",
+   "tyranitar",
+   "amoonguss",
+   "gastrodon"
+  ],
+  "Excursionista Irene": [
+   "gastrodon",
+   "chandelure",
+   "hydreigon",
+   "amoonguss"
+  ],
+  "Experta Melania": [
+   "amoonguss",
+   "tornadus",
+   "absol",
+   "thundurus"
+  ],
+  "Experto Cirilo": [
+   "tornadus",
+   "latios",
+   "landorus",
+   "metagross"
+  ],
+  "Geologo Fabian": [
+   "ludicolo",
+   "politoed",
+   "swampert",
+   "ferrothorn"
+  ],
+  "Gimnasta Chloe": [
+   "torkoal",
+   "venusaur",
+   "blaziken",
+   "togekiss"
+  ],
+  "Guardian Ventisca": [
+   "darkrai",
+   "kyurem",
+   "amoonguss",
+   "kangaskhan"
+  ],
+  "Herborista Nil": [
+   "kingdra",
+   "politoed",
+   "ludicolo",
+   "scizor"
+  ],
+  "Inquisidor Tadeo": [
+   "charizard",
+   "venusaur",
+   "groudon",
+   "latias"
+  ],
+  "Instructor Gael": [
+   "venusaur",
+   "aerodactyl",
+   "raichu",
+   "charizard"
+  ],
+  "Instructora Nadia": [
+   "politoed",
+   "metagross",
+   "kingdra",
+   "amoonguss"
+  ],
+  "Investigador Osmar": [
+   "whimsicott",
+   "kangaskhan",
+   "hitmontop",
+   "rotom"
+  ],
+  "Jardinero Ruben": [
+   "garchomp",
+   "whimsicott",
+   "typhlosion",
+   "kangaskhan"
+  ],
+  "Maestra Perpetua": [
+   "landorus",
+   "cresselia",
+   "amoonguss",
+   "conkeldurr"
+  ],
+  "Maestro Ezequiel": [
+   "tornadus",
+   "thundurus",
+   "cresselia",
+   "excadrill"
+  ],
+  "Mecanica Berta": [
+   "conkeldurr",
+   "musharna",
+   "rhyperior",
+   "slowking"
+  ],
+  "Mentor Isidoro": [
+   "cresselia",
+   "sableye",
+   "slowbro",
+   "clefable"
+  ],
+  "Mentora Rebeca": [
+   "metagross",
+   "whimsicott",
+   "latios",
+   "rotom"
+  ],
+  "Montanera Silvia": [
+   "rhyperior",
+   "scrafty",
+   "amoonguss"
+  ],
+  "Musico Aaron": [
+   "mienshao",
+   "chandelure",
+   "krookodile",
+   "whimsicott"
+  ],
+  "Nadador Simon": [
+   "venusaur",
+   "ninetales",
+   "chandelure",
+   "scrafty"
+  ],
+  "Ninja Tsubaki": [
+   "whimsicott",
+   "gengar",
+   "hitmontop",
+   "dragonite"
+  ],
+  "Patinador Cesar": [
+   "rotom",
+   "hitmontop",
+   "dragonite",
+   "krookodile"
+  ],
+  "Pescadora Noa": [
+   "excadrill",
+   "tyranitar",
+   "hydreigon",
+   "clefable"
+  ],
+  "Piloto Wendy": [
+   "meowstic",
+   "gardevoir",
+   "milotic",
+   "bisharp"
+  ],
+  "Pretor Lisandro": [
+   "reuniclus",
+   "shuckle",
+   "heracross",
+   "latios"
+  ],
+  "Prodigio Iker": [
+   "venusaur",
+   "charizard",
+   "tornadus",
+   "landorus"
+  ],
+  "Ranger Talia": [
+   "venusaur",
+   "charizard",
+   "chandelure",
+   "hitmontop"
+  ],
+  "Recolectora Mar": [
+   "ludicolo",
+   "politoed",
+   "ferrothorn",
+   "kingdra"
+  ],
+  "Reina Aureliana": [
+   "landorus",
+   "deoxys",
+   "tornadus"
+  ],
+  "Retador Nicanor": [
+   "mawile",
+   "jellicent",
+   "camerupt",
+   "conkeldurr"
+  ],
+  "Retadora Ofelia": [
+   "cresselia",
+   "mawile",
+   "rhyperior",
+   "amoonguss"
+  ],
+  "Saga Calixta": [
+   "garchomp",
+   "lugia",
+   "arceus",
+   "whimsicott"
+  ],
+  "Samurai Kenzo": [
+   "musharna",
+   "mawile",
+   "rhyperior",
+   "amoonguss"
+  ],
+  "Senor Draco": [
+   "kyogre",
+   "dialga",
+   "palkia",
+   "gastrodon"
+  ],
+  "Surfista Dani": [
+   "vileplume",
+   "torkoal",
+   "gastrodon",
+   "dusclops"
+  ],
+  "Tactica Ines": [
+   "lucario",
+   "rotom",
+   "hydreigon",
+   "amoonguss"
+  ],
+  "Veterana Herminia": [
+   "deoxys",
+   "gengar",
+   "hitmontop",
+   "suicune"
+  ],
+  "Veterana Ruth": [
+   "salamence",
+   "rotom",
+   "amoonguss",
+   "krookodile"
+  ],
+  "Veterano Anselmo": [
+   "swampert",
+   "pelipper",
+   "kingdra",
+   "toxicroak"
+  ],
+  "Veterano Baldomero": [
+   "amoonguss",
+   "cresselia",
+   "mawile",
+   "rhyperior"
+  ],
+  "Vigilante Cira": [
+   "hitmontop",
+   "arcanine",
+   "garchomp",
+   "togekiss"
+  ],
+  "Vizcondesa Rosamunda": [
+   "metagross",
+   "whimsicott",
+   "mewtwo",
+   "terrakion"
+  ]
+ },
+ "sets": {
+  "Aprendiza Marina|bronzong": {
+   "battles": 16,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "gyroball",
+    "hypnosis",
+    "protect",
+    "trickroom"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Aprendiza Marina|cofagrigus": {
+   "battles": 16,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "allyswitch",
+    "nightshade",
+    "trickroom",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Aprendiza Marina|conkeldurr": {
+   "battles": 16,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "drainpunch",
+    "knockoff",
+    "stompingtantrum"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Aprendiza Marina|escavalier": {
+   "battles": 16,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "ironhead",
+    "megahorn",
+    "poisonjab"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Artista Emma|camerupt": {
+   "battles": 26,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "eruption",
+    "heatwave",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Artista Emma|crustle": {
+   "ability": "sturdy",
+   "battles": 26,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "rockslide",
+    "wideguard",
+    "xscissor"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 1
+  },
+  "Artista Emma|mandibuzz": {
+   "battles": 26,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "foulplay",
+    "roost",
+    "snarl",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Artista Emma|sableye": {
+   "battles": 26,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "foulplay",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "As Bibiana|aerodactyl": {
+   "ability": "unnerve",
+   "battles": 4,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "rockslide",
+    "tailwind",
+    "taunt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "As Bibiana|amoonguss": {
+   "battles": 4,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "pollenpuff",
+    "protect",
+    "ragepowder",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "As Bibiana|keldeo": {
+   "battles": 4,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icywind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "As Bibiana|lucario": {
+   "battles": 4,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "As Cayetano|amoonguss": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "pollenpuff",
+    "protect",
+    "ragepowder",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "As Cayetano|raikou": {
+   "ability": "pressure",
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "snarl",
+    "thunderbolt",
+    "thunderwave",
+    "voltswitch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "As Cayetano|salamence": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "doubleedge",
+    "protect",
+    "rockslide",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "As Cayetano|scrafty": {
+   "ability": "intimidate",
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "drainpunch",
+    "fakeout",
+    "knockoff",
+    "snarl"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Atleta Bruna|dusclops": {
+   "ability": "pressure",
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "nightshade",
+    "trickroom",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Atleta Bruna|kangaskhan": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "lastresort"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Atleta Bruna|mawile": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "playrough",
+    "protect",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Atleta Bruna|slowbro": {
+   "battles": 12,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Bailarin Adan|aerodactyl": {
+   "ability": "unnerve",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dualwingbeat",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Bailarin Adan|garchomp": {
+   "ability": "roughskin",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "earthquake",
+    "stompingtantrum"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Bailarin Adan|hitmontop": {
+   "ability": "intimidate",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "helpinghand",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Bailarin Adan|volcarona": {
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bugbuzz",
+    "fierydance",
+    "protect",
+    "quiverdance"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Baron Evaristo|cresselia": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icywind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Baron Evaristo|kyogre": {
+   "ability": "primordialsea",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icebeam",
+    "waterspout"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Baron Evaristo|swampert": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "waterfall"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Baronesa Casandra|bronzong": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hypnosis"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Baronesa Casandra|ludicolo": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "icebeam"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Baronesa Casandra|palkia": {
+   "ability": "pressure",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hydropump"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Boxeadora Nagore|garchomp": {
+   "ability": "roughskin",
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "earthquake",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Boxeadora Nagore|metagross": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icepunch",
+    "protect",
+    "zenheadbutt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Boxeadora Nagore|rotom": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heatwave",
+    "protect",
+    "thunderbolt",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Boxeadora Nagore|whimsicott": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "encore",
+    "moonblast",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Caballero Godofredo|cresselia": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "moonblast"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Caballero Godofredo|gallade": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "psychocut"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Caballero Godofredo|mawile": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Campeon Fulgencio|articuno": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "ancientpower",
+    "blizzard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Campeon Fulgencio|froslass": {
+   "ability": "snowwarning",
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "blizzard",
+    "protect",
+    "shadowball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Campeon Fulgencio|rotom": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "electroweb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Campeon Fulgencio|sableye": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "encore",
+    "fakeout",
+    "taunt",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Campeona Amalia|amoonguss": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "ragepowder",
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Campeona Amalia|cresselia": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "icywind",
+    "moonblast",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Campeona Amalia|salamence": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "hypervoice",
+    "protect",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Campeona Amalia|togekiss": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "airslash",
+    "followme",
+    "thunderwave"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Campista Nacho|amoonguss": {
+   "battles": 20,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Campista Nacho|gyarados": {
+   "ability": "intimidate",
+   "battles": 20,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragondance",
+    "icefang",
+    "protect",
+    "waterfall"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Campista Nacho|kingdra": {
+   "battles": 20,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "hurricane",
+    "icebeam",
+    "weatherball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Campista Nacho|pelipper": {
+   "ability": "drizzle",
+   "battles": 20,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hurricane",
+    "tailwind",
+    "weatherball",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 1
+  },
+  "Cazador Efren|galvantula": {
+   "battles": 14,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "electroweb",
+    "thunder"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Cazador Efren|gastrodon": {
+   "battles": 14,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "icebeam",
+    "muddywater"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Cazador Efren|salamence": {
+   "battles": 14,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "doubleedge",
+    "rockslide",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Cazador Efren|scrafty": {
+   "ability": "intimidate",
+   "battles": 14,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "drainpunch",
+    "fakeout",
+    "knockoff"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Centurion Aureo|crobat": {
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "superfang",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Centurion Aureo|gengar": {
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "shadowball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Centurion Aureo|kangaskhan": {
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "doubleedge",
+    "fakeout"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Centurion Aureo|kyogre": {
+   "ability": "drizzle",
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "waterspout"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Chef Valeria|crobat": {
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "superfang",
+    "tailwind",
+    "taunt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Chef Valeria|gastrodon": {
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "icebeam",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Chef Valeria|hitmontop": {
+   "ability": "intimidate",
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "feint",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Chef Valeria|metagross": {
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bulletpunch",
+    "heavyslam",
+    "psychicfangs",
+    "stompingtantrum"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Ciclista Olga|ambipom": {
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "doublehit",
+    "fakeout",
+    "knockoff",
+    "uturn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Ciclista Olga|gliscor": {
+   "ability": "poisonheal",
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "knockoff",
+    "protect",
+    "uturn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Ciclista Olga|sableye": {
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "knockoff",
+    "taunt",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Ciclista Olga|salamence": {
+   "ability": "intimidate",
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "heatwave",
+    "protect",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Comandante Delia|dragonite": {
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "hurricane",
+    "protect",
+    "thunder"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Comandante Delia|landorus": {
+   "ability": "intimidate",
+   "battles": 2,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Comandante Delia|pelipper": {
+   "ability": "drizzle",
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hurricane",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Comandante Delia|rotom": {
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hydropump"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Detective Casimiro|arcanine": {
+   "ability": "intimidate",
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "flareblitz",
+    "protect",
+    "snarl",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Detective Casimiro|charizard": {
+   "ability": "drought",
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heatwave",
+    "overheat",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Detective Casimiro|hitmontop": {
+   "ability": "intimidate",
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "feint",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Detective Casimiro|venusaur": {
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "gigadrain",
+    "sleeppowder",
+    "sludgebomb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Domadora Zoe|amoonguss": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "pollenpuff",
+    "protect",
+    "ragepowder",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Domadora Zoe|conkeldurr": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "detect",
+    "drainpunch",
+    "knockoff",
+    "machpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Domadora Zoe|jellicent": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "trickroom",
+    "waterspout"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Domadora Zoe|metagross": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icepunch",
+    "zenheadbutt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Duelista Ainara|charizard": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "flareblitz"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Duelista Ainara|suicune": {
+   "ability": "pressure",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icywind",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Duelista Ainara|whimsicott": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "moonblast"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Duelista Horacio|cresselia": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icywind",
+    "lunarblessing"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Duelista Horacio|gastrodon": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icebeam"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Duelista Horacio|hitmontop": {
+   "ability": "intimidate",
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Duelista Horacio|metagross": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icepunch",
+    "protect",
+    "zenheadbutt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Elite Adriano|cresselia": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "icywind",
+    "moonblast",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Elite Adriano|excadrill": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "highhorsepower",
+    "ironhead"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Elite Adriano|landorus": {
+   "ability": "intimidate",
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "rockslide",
+    "stompingtantrum",
+    "uturn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Elite Adriano|latios": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Elite Noelia|hitmontop": {
+   "ability": "intimidate",
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "helpinghand",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Elite Noelia|landorus": {
+   "ability": "intimidate",
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Elite Noelia|latios": {
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "protect",
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Elite Noelia|zapdos": {
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hurricane",
+    "protect",
+    "tailwind",
+    "voltswitch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Entrenador Sebastian|froslass": {
+   "ability": "snowwarning",
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "blizzard",
+    "protect",
+    "shadowball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Entrenador Sebastian|glaceon": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "blizzard",
+    "icywind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Entrenador Sebastian|gyarados": {
+   "ability": "intimidate",
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragondance",
+    "ironhead",
+    "protect",
+    "waterfall"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Entrenador Sebastian|hariyama": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "facade",
+    "fakeout",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Entrenadora Lorena|gallade": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "psychocut",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Entrenadora Lorena|scrafty": {
+   "ability": "intimidate",
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "knockoff",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Entrenadora Lorena|torkoal": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "eruption",
+    "heatwave",
+    "protect",
+    "weatherball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Escaladora Maite|crobat": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bravebird",
+    "tailwind",
+    "taunt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Escaladora Maite|gothitelle": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "helpinghand",
+    "protect",
+    "trickroom"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Escaladora Maite|kangaskhan": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "doubleedge",
+    "fakeout",
+    "poweruppunch",
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Escaladora Maite|lapras": {
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "freezedry",
+    "hydropump",
+    "perishsong",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Estratega Boris|garchomp": {
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "poisonjab",
+    "protect",
+    "stompingtantrum"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Estratega Boris|gardevoir": {
+   "battles": 12,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hypervoice",
+    "protect",
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Estratega Boris|metagross": {
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bulletpunch",
+    "protect",
+    "zenheadbutt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Estratega Boris|whimsicott": {
+   "battles": 12,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "moonblast",
+    "protect",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Estudiante Hector|amoonguss": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "crunch",
+    "gigadrain",
+    "lowkick",
+    "protect",
+    "ragepowder",
+    "rockslide",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Estudiante Hector|excadrill": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "ironhead",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Estudiante Hector|gastrodon": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Estudiante Hector|tyranitar": {
+   "ability": "sandstream",
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "crunch",
+    "lowkick",
+    "protect",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Excursionista Irene|amoonguss": {
+   "battles": 9,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "ragepowder",
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Excursionista Irene|chandelure": {
+   "battles": 9,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heatwave",
+    "overheat",
+    "protect",
+    "shadowball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Excursionista Irene|gastrodon": {
+   "battles": 9,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "toxic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Excursionista Irene|hydreigon": {
+   "battles": 9,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "darkpulse",
+    "dracometeor",
+    "flashcannon"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Experta Melania|absol": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "nightslash",
+    "protect",
+    "shadowclaw",
+    "xscissor"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Experta Melania|amoonguss": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "ragepowder",
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Experta Melania|thundurus": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "taunt",
+    "thunderbolt",
+    "thunderwave"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Experta Melania|tornadus": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bleakwindstorm"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Experto Cirilo|landorus": {
+   "ability": "intimidate",
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "stoneedge"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Experto Cirilo|latios": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "icywind",
+    "protect",
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Experto Cirilo|metagross": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bulletpunch",
+    "highhorsepower",
+    "psychicfangs"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Experto Cirilo|tornadus": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bleakwindstorm",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Geologo Fabian|ferrothorn": {
+   "ability": "ironbarbs",
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "gyroball",
+    "leechseed",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Geologo Fabian|ludicolo": {
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "icebeam",
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Geologo Fabian|politoed": {
+   "ability": "drizzle",
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "protect",
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Gimnasta Chloe|blaziken": {
+   "ability": "speedboost",
+   "battles": 22,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "detect",
+    "flareblitz",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Gimnasta Chloe|togekiss": {
+   "battles": 22,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "airslash",
+    "followme",
+    "protect",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Gimnasta Chloe|torkoal": {
+   "ability": "drought",
+   "battles": 22,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "protect",
+    "willowisp",
+    "yawn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Gimnasta Chloe|venusaur": {
+   "battles": 22,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "gigadrain",
+    "protect",
+    "sleeppowder",
+    "sludgebomb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Guardian Ventisca|amoonguss": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Guardian Ventisca|darkrai": {
+   "ability": "baddreams",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "darkpulse",
+    "protect",
+    "shadowball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Guardian Ventisca|kangaskhan": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Guardian Ventisca|kyurem": {
+   "ability": "teravolt",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fusionbolt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Herborista Nil|kingdra": {
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "hurricane",
+    "muddywater"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Herborista Nil|ludicolo": {
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "icebeam",
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Herborista Nil|politoed": {
+   "ability": "drizzle",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "protect",
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Herborista Nil|scizor": {
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bugbite",
+    "bulletpunch",
+    "uturn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Inquisidor Tadeo|charizard": {
+   "ability": "drought",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heatwave",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Inquisidor Tadeo|groudon": {
+   "ability": "desolateland",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Inquisidor Tadeo|venusaur": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "sleeppowder",
+    "sludgebomb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Instructor Gael|aerodactyl": {
+   "ability": "unnerve",
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dualwingbeat",
+    "rockslide",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Instructor Gael|charizard": {
+   "ability": "drought",
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heatwave",
+    "protect",
+    "weatherball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Instructor Gael|raichu": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "voltswitch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Instructor Gael|venusaur": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "sleeppowder",
+    "sludgebomb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Instructora Nadia|amoonguss": {
+   "ability": "effectspore",
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "ragepowder",
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Instructora Nadia|kingdra": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "icebeam"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Instructora Nadia|metagross": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "psychicfangs",
+    "stompingtantrum"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Instructora Nadia|politoed": {
+   "ability": "drizzle",
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "muddywater",
+    "protect",
+    "weatherball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Investigador Osmar|hitmontop": {
+   "ability": "intimidate",
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Investigador Osmar|kangaskhan": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "return",
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Investigador Osmar|rotom": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hydropump",
+    "protect",
+    "thunderbolt",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Investigador Osmar|whimsicott": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "encore",
+    "helpinghand",
+    "moonblast",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Jardinero Ruben|garchomp": {
+   "ability": "roughskin",
+   "battles": 14,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "earthquake",
+    "protect",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Jardinero Ruben|kangaskhan": {
+   "battles": 12,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "lastresort"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Jardinero Ruben|typhlosion": {
+   "battles": 13,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "eruption",
+    "extrasensory",
+    "heatwave",
+    "overheat",
+    "struggle"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Jardinero Ruben|whimsicott": {
+   "battles": 14,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "encore",
+    "moonblast",
+    "protect",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Maestra Perpetua|amoonguss": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "ragepowder",
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Maestra Perpetua|conkeldurr": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "facade",
+    "machpunch",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Maestra Perpetua|cresselia": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "icywind",
+    "moonblast",
+    "trickroom"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Maestra Perpetua|landorus": {
+   "ability": "intimidate",
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "rockslide",
+    "stompingtantrum",
+    "uturn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Maestro Ezequiel|cresselia": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "icywind",
+    "moonblast",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Maestro Ezequiel|excadrill": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "ironhead",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Maestro Ezequiel|thundurus": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "thunderwave"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Maestro Ezequiel|tornadus": {
+   "battles": 8,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "acrobatics"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Mecanica Berta|conkeldurr": {
+   "battles": 21,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "drainpunch",
+    "machpunch",
+    "protect",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Mecanica Berta|musharna": {
+   "ability": "synchronize",
+   "battles": 21,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "protect",
+    "psychic",
+    "trickroom"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Mecanica Berta|rhyperior": {
+   "battles": 21,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "megahorn",
+    "protect",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Mecanica Berta|slowking": {
+   "battles": 21,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "psychic",
+    "scald",
+    "yawn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Mentor Isidoro|clefable": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "followme",
+    "moonblast",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Mentor Isidoro|cresselia": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icywind",
+    "lunarblessing",
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Mentor Isidoro|sableye": {
+   "ability": "magicbounce",
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "foulplay",
+    "recover",
+    "snarl",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Mentor Isidoro|slowbro": {
+   "battles": 7,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "psychic",
+    "yawn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Mentora Rebeca|latios": {
+   "battles": 2,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dracometeor",
+    "psyshock"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Mentora Rebeca|metagross": {
+   "battles": 2,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icepunch",
+    "protect",
+    "zenheadbutt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Mentora Rebeca|rotom": {
+   "battles": 2,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hydropump",
+    "protect",
+    "thunderbolt",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Mentora Rebeca|whimsicott": {
+   "battles": 2,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "moonblast",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Montanera Silvia|amoonguss": {
+   "battles": 21,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "pollenpuff",
+    "protect",
+    "ragepowder",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Montanera Silvia|rhyperior": {
+   "battles": 21,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "highhorsepower",
+    "icepunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Montanera Silvia|scrafty": {
+   "ability": "intimidate",
+   "battles": 21,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "drainpunch",
+    "fakeout",
+    "icepunch",
+    "knockoff"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Musico Aaron|chandelure": {
+   "battles": 19,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "energyball",
+    "heatwave",
+    "shadowball",
+    "trickroom"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Musico Aaron|krookodile": {
+   "ability": "moxie",
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "crunch",
+    "earthquake",
+    "lowkick",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Musico Aaron|mienshao": {
+   "battles": 19,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "uturn",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Musico Aaron|whimsicott": {
+   "battles": 19,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "tailwind",
+    "taunt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Nadador Simon|chandelure": {
+   "battles": 26,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "energyball",
+    "heatwave",
+    "shadowball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Nadador Simon|ninetales": {
+   "ability": "drought",
+   "battles": 26,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heatwave",
+    "helpinghand",
+    "protect",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Nadador Simon|scrafty": {
+   "ability": "intimidate",
+   "battles": 26,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "drainpunch",
+    "fakeout",
+    "protect",
+    "snarl"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Nadador Simon|venusaur": {
+   "battles": 26,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "gigadrain",
+    "protect",
+    "sleeppowder",
+    "sludgebomb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Ninja Tsubaki|dragonite": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icespinner"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Ninja Tsubaki|gengar": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "sludgebomb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Ninja Tsubaki|hitmontop": {
+   "ability": "intimidate",
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Ninja Tsubaki|whimsicott": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Patinador Cesar|dragonite": {
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "extremespeed",
+    "icespinner",
+    "ironhead"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Patinador Cesar|hitmontop": {
+   "ability": "intimidate",
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "suckerpunch",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 1
+  },
+  "Patinador Cesar|krookodile": {
+   "ability": "intimidate",
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "crunch",
+    "earthquake",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Patinador Cesar|rotom": {
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hydropump",
+    "voltswitch",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Pescadora Noa|clefable": {
+   "battles": 16,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "followme",
+    "helpinghand",
+    "moonblast",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Pescadora Noa|excadrill": {
+   "battles": 16,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "highhorsepower",
+    "ironhead",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Pescadora Noa|hydreigon": {
+   "battles": 16,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "darkpulse",
+    "dracometeor",
+    "earthpower",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Pescadora Noa|tyranitar": {
+   "ability": "sandstream",
+   "battles": 16,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heavyslam",
+    "knockoff",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Piloto Wendy|bisharp": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Piloto Wendy|gardevoir": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "focusblast",
+    "psyshock"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Piloto Wendy|meowstic": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "helpinghand",
+    "safeguard",
+    "thunderwave"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Piloto Wendy|milotic": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hypnosis",
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Pretor Lisandro|heracross": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "rockblast"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Pretor Lisandro|reuniclus": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Pretor Lisandro|shuckle": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Prodigio Iker|charizard": {
+   "ability": "drought",
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heatwave",
+    "protect",
+    "weatherball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Prodigio Iker|landorus": {
+   "ability": "intimidate",
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Prodigio Iker|tornadus": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bleakwindstorm",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Prodigio Iker|venusaur": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Ranger Talia|chandelure": {
+   "battles": 12,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "heatwave",
+    "protect",
+    "shadowball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Ranger Talia|charizard": {
+   "ability": "drought",
+   "battles": 12,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "airslash",
+    "heatwave",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Ranger Talia|hitmontop": {
+   "ability": "intimidate",
+   "battles": 12,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Ranger Talia|venusaur": {
+   "battles": 12,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "gigadrain",
+    "protect",
+    "sleeppowder",
+    "sludgebomb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Recolectora Mar|ferrothorn": {
+   "ability": "ironbarbs",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "gyroball",
+    "leechseed",
+    "powerwhip",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Recolectora Mar|kingdra": {
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonpulse",
+    "icebeam",
+    "muddywater"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Recolectora Mar|ludicolo": {
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "icebeam",
+    "surf"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Recolectora Mar|politoed": {
+   "ability": "drizzle",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "helpinghand",
+    "perishsong",
+    "protect",
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Reina Aureliana|deoxys": {
+   "ability": "pressure",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "cosmicpower",
+    "nightshade",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Reina Aureliana|hooh": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "bravebird"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Reina Aureliana|landorus": {
+   "ability": "intimidate",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Reina Aureliana|tornadus": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "taunt"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Retador Nicanor|camerupt": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "eruption"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Retador Nicanor|conkeldurr": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "detect",
+    "drainpunch",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Retador Nicanor|jellicent": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "waterspout"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Retador Nicanor|mawile": {
+   "battles": 5,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Retadora Ofelia|amoonguss": {
+   "battles": 4,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Retadora Ofelia|cresselia": {
+   "battles": 4,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Retadora Ofelia|mawile": {
+   "battles": 4,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Saga Calixta|arceus": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "judgment"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Saga Calixta|garchomp": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Saga Calixta|lugia": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "aeroblast",
+    "calmmind",
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Saga Calixta|whimsicott": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "moonblast"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Samurai Kenzo|amoonguss": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Samurai Kenzo|mawile": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Samurai Kenzo|musharna": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "psychic",
+    "trickroom"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Samurai Kenzo|rhyperior": {
+   "battles": 10,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "megahorn"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Senor Draco|dialga": {
+   "ability": "telepathy",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonpulse",
+    "earthpower"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Senor Draco|kyogre": {
+   "ability": "drizzle",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "waterspout"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Senor Draco|palkia": {
+   "ability": "pressure",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "spacialrend",
+    "surf"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Surfista Dani|dusclops": {
+   "ability": "pressure",
+   "battles": 20,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "allyswitch",
+    "nightshade",
+    "trickroom",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Surfista Dani|gastrodon": {
+   "battles": 20,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthpower",
+    "recover",
+    "toxic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Surfista Dani|torkoal": {
+   "ability": "drought",
+   "battles": 20,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "eruption",
+    "heatwave",
+    "weatherball"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Surfista Dani|vileplume": {
+   "battles": 20,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "afteryou",
+    "sleeppowder",
+    "sludgebomb"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Tactica Ines|amoonguss": {
+   "ability": "effectspore",
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "rockyhelmet",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Tactica Ines|hydreigon": {
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "darkpulse",
+    "dracometeor",
+    "earthpower",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Tactica Ines|lucario": {
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "aurasphere",
+    "flashcannon",
+    "protect",
+    "vacuumwave"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Tactica Ines|rotom": {
+   "battles": 11,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hydropump",
+    "voltswitch",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Veterana Herminia|deoxys": {
+   "ability": "pressure",
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "psychoboost",
+    "superpower"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Veterana Herminia|gengar": {
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "perishsong",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Veterana Herminia|hitmontop": {
+   "ability": "intimidate",
+   "battles": 2,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "feint",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Veterana Herminia|suicune": {
+   "ability": "pressure",
+   "battles": 3,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icywind",
+    "protect",
+    "scald"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Veterana Ruth|amoonguss": {
+   "battles": 19,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "ragepowder",
+    "sludgebomb",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Veterana Ruth|krookodile": {
+   "ability": "intimidate",
+   "battles": 17,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "earthquake",
+    "knockoff",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Veterana Ruth|rotom": {
+   "battles": 19,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hydropump",
+    "voltswitch",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Veterana Ruth|salamence": {
+   "battles": 19,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "hypervoice",
+    "protect",
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Veterano Anselmo|kingdra": {
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "icebeam"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Veterano Anselmo|pelipper": {
+   "ability": "drizzle",
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "hurricane",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 2
+  },
+  "Veterano Anselmo|toxicroak": {
+   "ability": "dryskin",
+   "battles": 15,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "fakeout",
+    "protect",
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Veterano Baldomero|amoonguss": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect",
+    "spore"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Veterano Baldomero|cresselia": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "psychic"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Veterano Baldomero|mawile": {
+   "battles": 6,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "suckerpunch"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Vigilante Cira|arcanine": {
+   "ability": "intimidate",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "sitrusberry",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "flareblitz",
+    "protect",
+    "snarl",
+    "willowisp"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 2,
+   "wideGuardUses": 0
+  },
+  "Vigilante Cira|garchomp": {
+   "ability": "roughskin",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "dragonclaw",
+    "earthquake",
+    "protect",
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Vigilante Cira|hitmontop": {
+   "ability": "intimidate",
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "closecombat",
+    "fakeout",
+    "helpinghand",
+    "wideguard"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 1
+  },
+  "Vigilante Cira|togekiss": {
+   "battles": 18,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "leftovers",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "airslash",
+    "followme",
+    "helpinghand",
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Vizcondesa Rosamunda|metagross": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "protect"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 1,
+   "wideGuardUses": 0
+  },
+  "Vizcondesa Rosamunda|mewtwo": {
+   "ability": "pressure",
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "aurasphere",
+    "icebeam",
+    "psystrike"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Vizcondesa Rosamunda|terrakion": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "rockslide"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  },
+  "Vizcondesa Rosamunda|whimsicott": {
+   "battles": 1,
+   "bulkMult": [
+    1,
+    1
+   ],
+   "item": "focussash",
+   "maxSpe": 1.7976931348623157e+308,
+   "minSpe": 0,
+   "moves": [
+    "tailwind"
+   ],
+   "powerMult": [
+    1,
+    1
+   ],
+   "protectUses": 0,
+   "wideGuardUses": 0
+  }
+ }
+}
