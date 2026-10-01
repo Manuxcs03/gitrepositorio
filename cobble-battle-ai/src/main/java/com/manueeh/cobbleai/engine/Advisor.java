@@ -1,5 +1,6 @@
 package com.manueeh.cobbleai.engine;
 
+import com.manueeh.cobbleai.data.MoveDex;
 import com.manueeh.cobbleai.model.BattleState;
 import com.manueeh.cobbleai.model.Battler;
 import com.manueeh.cobbleai.model.MoveInfo;
@@ -73,10 +74,31 @@ public final class Advisor {
         }
     }
 
+    /** An inaccurate move in the recommended line whose miss leaves its user to a foe that can knock it out. */
+    public static final class Gamble {
+        public final String mine;
+        public final String move;
+        public final int missPercent;
+        public final String foe;
+
+        Gamble(String mine, String move, int missPercent, String foe) {
+            this.mine = mine;
+            this.move = move;
+            this.missPercent = missPercent;
+            this.foe = foe;
+        }
+
+        @Override
+        public String toString() {
+            return "if " + move + " misses (" + missPercent + "%), " + foe + " can knock out " + mine;
+        }
+    }
+
     public static final class Advice {
         public final List<Option> options = new ArrayList<>();
         public final List<FoeMove> foeMoves = new ArrayList<>();
         public final List<Danger> dangers = new ArrayList<>();
+        public final List<Gamble> gambles = new ArrayList<>();
         /** The second best line is within {@link #CLOSE_CALL}: the player's read of the opponent matters here. */
         public boolean closeCall;
         /** Remaining HP of each side counted in Pokemon (a full one = 1; unseen foes count as full). */
@@ -94,6 +116,7 @@ public final class Advisor {
             if (closeCall) sb.append(" [close call]");
             if (!foeMoves.isEmpty()) sb.append(" || foe: ").append(foeMoves);
             if (!dangers.isEmpty()) sb.append(" || danger: ").append(dangers);
+            if (!gambles.isEmpty()) sb.append(" || gamble: ").append(gambles);
             sb.append(String.format(Locale.ROOT, " || material %.1f vs %.1f", myMaterial, oppMaterial));
             return sb.toString();
         }
@@ -127,6 +150,11 @@ public final class Advisor {
             if (d != null) adv.dangers.add(d);
         }
 
+        for (Action a : plan.actions) {
+            Gamble g = gamble(s, a);
+            if (g != null) adv.gambles.add(g);
+        }
+
         for (Battler b : s.myTeam) if (b.alive()) adv.myMaterial += b.hpFrac();
         for (Battler b : s.oppTeam) if (b.alive()) adv.oppMaterial += b.hpFrac();
         adv.oppMaterial += Math.max(0, s.oppUnseenReserves);
@@ -138,7 +166,7 @@ public final class Advisor {
         for (Action a : plan.actions) {
             if (a.slot != slot) continue;
             if (a.kind == Action.Kind.SWITCH) return true;
-            if (a.kind == Action.Kind.MOVE && com.manueeh.cobbleai.data.MoveDex.PROTECT.contains(a.executed().id)) return true;
+            if (a.kind == Action.Kind.MOVE && MoveDex.PROTECT.contains(a.executed().id)) return true;
         }
         return false;
     }
@@ -159,6 +187,29 @@ public final class Advisor {
             if (t != null) return name + " -> " + t.name;
         }
         return name;
+    }
+
+    /** Misses this likely are worth a word (a 90% Heat Wave is not; a 75% Sleep Powder or 70% Hurricane is). */
+    private static final double GAMBLE_MISS = 0.15;
+
+    /**
+     * The move bets on its accuracy to stop {@code target} (put it to sleep, paralyse it, knock it out) while that
+     * target holds an attack that knocks the user out: a miss costs the user. (#4 Cira: a 75% Sleep Powder on
+     * Arcanine missed and Flare Blitz took Venusaur.)
+     */
+    private static Gamble gamble(BattleState s, Action a) {
+        if (a.kind != Action.Kind.MOVE || a.targetMine || a.targetSlot < 0) return null;
+        MoveInfo m = a.executed();
+        double miss = 1 - m.accuracy;
+        if (miss < GAMBLE_MISS || MoveDex.PROTECT.contains(m.id)) return null;
+        Battler me = s.my(a.slot), foe = s.opp(a.targetSlot);
+        if (me == null || foe == null || !me.alive() || !foe.alive()) return null;
+        for (MoveInfo fm : foe.moves) {
+            if (Planner.threatWeight(foe, fm) < 0.5) continue;
+            if (DamageCalc.calc(foe, me, fm, s.field, false, s.doubles, false, false).koChance(me.hp) < 0.5) continue;
+            return new Gamble(me.name, m.toString(), (int) Math.round(100 * miss), foe.name);
+        }
+        return null;
     }
 
     /** The likeliest way a foe that moves first knocks {@code me} out this turn, if it is likely enough. */

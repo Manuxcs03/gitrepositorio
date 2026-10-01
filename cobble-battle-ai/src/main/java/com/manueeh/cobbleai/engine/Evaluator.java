@@ -669,7 +669,7 @@ public final class Evaluator {
         return d;
     }
 
-    private static double residualPerTurn(Battler b, Field f) {
+    static double residualPerTurn(Battler b, Field f) {
         if (b.hasAbility("magicguard")) {
             return "leftovers".equals(b.item) ? -b.maxHp / 16.0 : 0;
         }

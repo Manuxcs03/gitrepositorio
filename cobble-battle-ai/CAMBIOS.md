@@ -43,3 +43,26 @@ El panel detallado (activo por defecto, `hudDetail` en `config/cobblebattleai.js
 6. PS restantes de cada lado, contados en Pokémon.
 
 Todo esto se escribe también en `latest.log` con la etiqueta `[AI-ADVICE]`, para revisar los combates perdidos.
+
+## Log 21: derrotas contra Experto Cirilo (#22) y Vigilante Cira (#4)
+
+**Cirilo.** En el turno 2 Torkoal recibió un Psíquico antes de usar Estallido, y su Estallido salió más débil.
+El calibrador (que aprende lo resistente o lo fuerte que es cada rival comparando el daño real con el previsto)
+lo interpretó como que Latios y Metagross eran casi el doble de resistentes (x1.44 y x1.49), y además lo
+**guardó en la memoria** para los siguientes combates contra ese entrenador. Con un Torkoal tan lento esto
+pasaba en casi todos los combates. Ese mismo turno, Charizard entró delante de Metagross: Psicocolmillo más
+el daño de Poder Solar al final del turno lo dejaron al 1%, y la comprobación de peligro solo miraba el golpe.
+
+- `Readings.reliable` (nuevo, usado por el calibrador): descarta las lecturas cuyo poder o stats cambiaron
+  durante el turno: Estallido/Salpicar/Energía Dragón con el usuario ya golpeado, movimientos de poder variable
+  (Pataleta, Avalancha, Castigo...) y cambios de nivel de ataque o defensa a mitad de turno (Alarido, Intimidación).
+  Sí acepta Cometa Draco o Sofoco, que bajan el stat después de golpear.
+- La memoria (`cobblebattleai-memory.json`) ya no carga los factores de poder y resistencia aprendidos con el
+  calibrador anterior; los movimientos, objetos y velocidades aprendidos se conservan.
+- El peligro de un Pokémon que entra cuenta también el daño de final de turno (Poder Solar o Piel Seca con sol,
+  tormenta de arena, quemadura, veneno).
+
+**Cira.** Somnífero (75 % de precisión) falló, y Envite Ígneo con crítico debilitó a Venusaur. La IA sigue
+eligiendo Somnífero ahí (con sol Venusaur es más rápido y dormir a Arcanine vale mucho, y en el combate #6 de
+este mismo log le salió bien), pero ahora el panel lo avisa:
+"Jugada arriesgada: si Somnífero falla (25%), Arcanine puede debilitar a Venusaur". Ahí puedes decidir tú.

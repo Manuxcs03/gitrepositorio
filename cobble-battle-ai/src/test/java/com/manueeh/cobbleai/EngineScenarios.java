@@ -94,6 +94,7 @@ public final class EngineScenarios {
         TowerCira3Replay.scenarios();
         TowerRuben3Replay.scenarios();
         GeneralScenarios.scenarios();
+        TowerCiriloCira5Replay.scenarios();
         FuzzScenarios.scenarios();
         System.out.println(failures == 0 ? "ALL SCENARIOS PASSED" : failures + " SCENARIO(S) FAILED");
         if (failures > 0) System.exit(1);

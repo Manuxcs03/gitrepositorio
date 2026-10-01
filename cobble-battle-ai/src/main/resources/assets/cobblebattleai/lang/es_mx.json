@@ -16,5 +16,6 @@
   "cobblebattleai.hud.close_call": "Decisión ajustada: las alternativas son casi igual de buenas, decide tu lectura del rival",
   "cobblebattleai.hud.foe_moves": "Rival probable: %s",
   "cobblebattleai.hud.danger": "Cuidado: %s puede caer antes de moverse (%s de %s, %s%%)",
-  "cobblebattleai.hud.material": "PS restantes (en Pokémon): tú %s vs rival %s"
+  "cobblebattleai.hud.material": "PS restantes (en Pokémon): tú %s vs rival %s",
+  "cobblebattleai.hud.gamble": "Jugada arriesgada: si %s falla (%s%%), %s puede debilitar a %s"
 }

@@ -99,6 +99,10 @@ public final class Calibrator {
             if (m.power <= 0 || MoveDex.MULTI_HIT.containsKey(m.id) || MoveDex.FIXED_DAMAGE.containsKey(m.id)
                 || MoveDex.OHKO.contains(m.id) || "seismictoss".equals(m.id) || "nightshade".equals(m.id)
                 || "superfang".equals(m.id) || "ruination".equals(m.id)) continue;
+            // Power or stats that changed during the turn (Eruption after being hit, Intimidate, Snarl...) would
+            // teach a wrong factor, and it is remembered for the next fights (Eruption from a Torkoal hit first
+            // "showed" Latios and Metagross half as frail as they are).
+            if (!com.manueeh.cobbleai.engine.Readings.reliable(m, attacker, now.get(e.actor), target0, target1)) continue;
             // Residual chip (burn, poison, sand, Leftovers) muddies the reading.
             if (target0.status != null || "sand".equals(before.field.weather) || "leftovers".equals(target0.item)) continue;
 

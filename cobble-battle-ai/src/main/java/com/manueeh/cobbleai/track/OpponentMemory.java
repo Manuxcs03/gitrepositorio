@@ -34,7 +34,15 @@ public final class OpponentMemory {
         public int protectUses;
         public int wideGuardUses;
         public int battles;
+        /** Calibrator version the power/bulk factors were learned with (0 = before readings were filtered). */
+        public int calibVersion;
     }
+
+    /**
+     * Factors learned before the calibrator skipped mid-turn readings are not trusted: Eruption from a Torkoal hit
+     * first made foes look up to twice as bulky, and that was carried into every later fight against them.
+     */
+    private static final int CALIB_VERSION = 2;
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().serializeSpecialFloatingPointValues().create();
     private static Map<String, Entry> data;
@@ -81,7 +89,7 @@ public final class OpponentMemory {
         if (k.ability == null) k.ability = e.ability;
         if (k.item == null && !k.itemGone) k.item = e.item;
         // Learned factors carry over, pulled a bit towards neutral in case the set differs.
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 2 && e.calibVersion >= CALIB_VERSION; i++) {
             k.powerMult[i] = 1 + (e.powerMult[i] - 1) * 0.8;
             k.bulkMult[i] = 1 + (e.bulkMult[i] - 1) * 0.8;
         }
@@ -101,6 +109,7 @@ public final class OpponentMemory {
         if (k.item != null) e.item = k.item;
         e.powerMult = k.powerMult.clone();
         e.bulkMult = k.bulkMult.clone();
+        e.calibVersion = CALIB_VERSION;
         e.minSpe = Math.max(e.minSpe, k.minSpe);
         if (k.maxSpe < e.maxSpe) e.maxSpe = k.maxSpe;
         e.protectUses = Math.max(e.protectUses, k.protectUses);

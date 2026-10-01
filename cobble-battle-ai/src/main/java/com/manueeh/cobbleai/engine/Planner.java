@@ -631,10 +631,12 @@ public final class Planner {
                 for (int idx : s.bench(true)) {
                     Battler c = s.myTeam.get(idx);
                     if (c == in || !c.alive()) continue;
-                    other = Math.min(other, Math.max(entryDanger(s, c, 0.5), comboDanger(s, c)));
+                    other = Math.min(other, Math.max(entryDanger(s, c, 0.5, false), comboDanger(s, c)));
                 }
                 // Only a near-certain one-shot on the incoming mon beats the certain loss of the one staying.
-                if (other != Double.MAX_VALUE) cost += Math.max(0, entryDanger(s, in, 0.7) - other);
+                // The end-of-turn chip (Solar Power...) counts for the Pokemon we would send in, not for the
+                // alternatives: a risky switch is never excused by pointing at another risky one.
+                if (other != Double.MAX_VALUE) cost += Math.max(0, entryDanger(s, in, 0.7, true) - other);
                 continue;
             }
             for (int k = 0; k < s.slots(); k++) {
@@ -649,7 +651,7 @@ public final class Planner {
                     }
                 }
             }
-            cost += entryDanger(s, in, 0.5);
+            cost += entryDanger(s, in, 0.5, true);
         }
         return cost;
     }
@@ -674,6 +676,19 @@ public final class Planner {
             sum += best;
         }
         return sum >= in.hp ? 0.45 : 0;
+    }
+
+    /**
+     * HP a Pokemon that comes in has to survive this turn with: the end-of-turn chip (Solar Power and Dry Skin in
+     * sun, sand, burn, poison) comes on top of the hit. A Mega Charizard-Y line switched in at full HP was left on 1%
+     * by a hit plus Solar Power, which a check on the hit alone called safe.
+     */
+    public static double turnHpForTest(BattleState s, Battler b) {
+        return turnHp(s, b);
+    }
+
+    static double turnHp(BattleState s, Battler b) {
+        return Math.max(1, b.hp - Math.max(0, Evaluator.residualPerTurn(b, s.field)));
     }
 
     /** Guessed moves count for danger only from this likelihood on: below it they are mostly noise. */
@@ -705,7 +720,7 @@ public final class Planner {
      * Charizard, twice). A shown one-shot on the incoming Pokemon costs real value, more from a faster foe, and a
      * spread move reaches it whatever slot the foe aims at.
      */
-    private static double entryDanger(BattleState s, Battler in, double minKo) {
+    private static double entryDanger(BattleState s, Battler in, double minKo, boolean withChip) {
         double cost = 0;
         for (int k = 0; k < s.slots(); k++) {
             Battler foe = s.opp(k);
@@ -717,8 +732,9 @@ public final class Planner {
                 // A guessed attack from a slower foe leaves us a move to answer it first: only shown ones count then.
                 if (w <= 0 || (!m.revealed && !foeFaster)) continue;
                 DamageCalc.Result r = DamageCalc.calc(foe, in, m, s.field, false, s.doubles, m.isSpread(), false);
-                if (r.koChance(in.hp) < minKo) continue;
-                double ko = r.koChance(in.hp) * DamageCalc.hitChance(foe, in, m, s.field) * (m.isSpread() && s.doubles ? 1.5 : 1.0);
+                double hp = withChip ? turnHp(s, in) : in.hp;
+                if (r.koChance(hp) < minKo) continue;
+                double ko = r.koChance(hp) * DamageCalc.hitChance(foe, in, m, s.field) * (m.isSpread() && s.doubles ? 1.5 : 1.0);
                 if (m.revealed) shown = Math.max(shown, ko);
                 else guessedMiss *= 1 - Math.min(1, w * ko);
             }

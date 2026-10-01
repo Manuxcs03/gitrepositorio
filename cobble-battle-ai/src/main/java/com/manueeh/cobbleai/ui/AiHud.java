@@ -83,6 +83,9 @@ public final class AiHud {
                     add(lines, colors, Component.translatable("cobblebattleai.hud.danger", dg.mine,
                         dg.move + (dg.guessed ? "?" : ""), dg.foe, dg.percent), DANGER);
                 }
+                for (Advisor.Gamble gm : adv.gambles) {
+                    add(lines, colors, Component.translatable("cobblebattleai.hud.gamble", gm.move, gm.missPercent, gm.foe, gm.mine), GOLD);
+                }
                 add(lines, colors, Component.translatable("cobblebattleai.hud.material",
                     String.format(Locale.ROOT, "%.1f", adv.myMaterial), String.format(Locale.ROOT, "%.1f", adv.oppMaterial)), DARK_GREY);
             }
