@@ -827,8 +827,13 @@ public final class StateBuilder {
         return out;
     }
 
-    /** Damaging move of {@code type} strong enough (power x accuracy) to be a trained Pokemon's main STAB. */
+    /**
+     * Damaging move of {@code type} strong enough (power x accuracy) to be a trained Pokemon's main STAB. Water Spout,
+     * Eruption and Dragon Energy do not count: they fade with the user's HP, and sets carry a steady STAB beside them
+     * (log 24 #33: Primal Kyogre at 38% hit with Origin Pulse, never guessed because Water Spout "covered" Water).
+     */
     private static boolean isPremiumStab(MoveInfo m, String type) {
+        if (com.manueeh.cobbleai.engine.Readings.HP_SCALED.contains(m.id)) return false;
         return m.isDamaging() && type.equals(m.type) && m.power * Math.min(1.0, m.accuracy) >= 88;
     }
 

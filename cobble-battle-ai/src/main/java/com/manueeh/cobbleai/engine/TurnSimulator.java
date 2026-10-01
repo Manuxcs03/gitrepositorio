@@ -1115,7 +1115,7 @@ public final class TurnSimulator {
             for (boolean side : new boolean[] {true, false})
                 for (int k = 0; k < s.slots(); k++) {
                     Battler b = s.active(side, k);
-                    if (b != null && b.alive() && (b.hasAbility("primordialsea") || b.hasAbility("desolateland"))) source = true;
+                    if (b != null && b.alive() && primalSource(b)) source = true;
                 }
             if (!source) {
                 f.weather = null;
@@ -1129,6 +1129,18 @@ public final class TurnSimulator {
                 f.weatherTurns = 0;
             }
         }
+    }
+
+    /**
+     * The Pokemon keeping Primordial Sea / Desolate Land up. A Primal Kyogre whose ability was not read (or that is
+     * listed with its base form's abilities) still counts: otherwise the rain "ended" in every simulated turn and
+     * knocking Kyogre out to get the sun back looked worth nothing.
+     */
+    static boolean primalSource(Battler b) {
+        if (b.abilityChance("primordialsea") > 0 || b.abilityChance("desolateland") > 0) return true;
+        if (b.ability != null) return false;
+        String sp = b.species == null ? "" : b.species.toLowerCase(java.util.Locale.ROOT);
+        return sp.startsWith("kyogre") || sp.startsWith("groudon");
     }
 
     private static void residual(BattleState s, Field f, Battler b) {

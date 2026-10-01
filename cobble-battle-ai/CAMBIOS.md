@@ -107,3 +107,26 @@ anterior, así que lo descarté.
 
 Este rival es un mal emparejamiento para un equipo de sol: Viento Afín con Bromista, un Latios que resiste el
 fuego y dos atacantes Psíquicos contra Venusaur.
+
+## Log 24: derrota contra Barón Evaristo (#33, Kyogre Primigenio)
+
+Pregunta: ¿por qué no priorizó debilitar a Kyogre para recuperar el sol? Sí lo intentó: en 4 de los 5 turnos
+atacó a Kyogre (Gigadrenado en T1 y T3, Onda Certera en T4, Tierra Viva en T5). No llegó a tiempo porque, tras el
+Viento Hielo de Cresselia (Venusaur a -1 de Velocidad) y el Viento Afín de Crobat, Kyogre se movía antes que todo
+tu equipo. En el turno 2 nadie podía debilitarlo antes de que atacara. Pero la revisión destapó tres fallos reales:
+
+1. **Sol imposible durante la lluvia primigenia.** La IA daba por hecho que la Megaevolución de Charizard pondría sol
+   con Sequía, pero Mar del Albor bloquea cualquier otro clima mientras Kyogre esté en el campo. Por eso valoraba
+   un sol que no podía llegar, veía la Megaevolución como una pérdida y no le daba tanta urgencia a debilitar a Kyogre.
+   Ahora, con clima primigenio activo, no cuenta con ese sol. Si Kyogre cae, la simulación quita la lluvia y la
+   Megaevolución o el regreso de Torkoal vuelven a valer sol.
+2. **No esperaba Pulso Primigenio.** Salpicar contaba como "su ataque fuerte de tipo Agua", así que no se
+   imaginaba otro. Pero Salpicar pierde fuerza con los PS (con Kyogre al 38 % es flojo), y Kyogre usó Pulso
+   Primigenio, que debilitó a Garchomp al entrar. Ahora Salpicar, Estallido y Energía Dragón no cuentan como el STAB
+   fijo, y se añade un STAB probable.
+3. **Peligro al entrar contra un rival más lento.** El Pokémon que entra recibe el golpe de ese turno, sea el
+   rival más rápido o no. Ahora el STAB probable de un rival más lento también cuenta como peligro (la cobertura
+   adivinada sigue sin contar, porque casi nunca aparece).
+
+Además, la simulación reconoce a un Kyogre o Groudon como fuente de clima primigenio aunque no se haya leído su
+habilidad. Antes, en ese caso, la lluvia "se acababa" sola cada turno y debilitar a Kyogre no parecía valer nada.

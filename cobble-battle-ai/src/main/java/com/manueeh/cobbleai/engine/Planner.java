@@ -742,8 +742,10 @@ public final class Planner {
             double shown = 0, guessedMiss = 1;
             for (MoveInfo m : foe.moves) {
                 double w = threatWeight(foe, m);
-                // A guessed attack from a slower foe leaves us a move to answer it first: only shown ones count then.
-                if (w <= 0 || (!m.revealed && !foeFaster)) continue;
+                // The Pokemon coming in takes this turn's hit whatever the speeds; a slower foe's guessed attack only
+                // counts when it is likely (its STAB), as coverage guesses from it were mostly noise. (log 24 #33:
+                // Scarf Garchomp, faster than Kyogre, came in and fell to the Origin Pulse nobody had guessed.)
+                if (w <= 0 || (!m.revealed && !foeFaster && w < 0.5)) continue;
                 DamageCalc.Result r = DamageCalc.calc(foe, in, m, s.field, false, s.doubles, m.isSpread(), false);
                 double hp = withChip ? turnHp(s, in) : in.hp;
                 if (r.koChance(hp) < minKo) continue;

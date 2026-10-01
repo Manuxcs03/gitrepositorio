@@ -68,6 +68,10 @@ public final class Evaluator {
      * That is what makes "Mega Evolve now while the old sun still runs" lose to "evolve next turn".
      */
     private static BattleState weatherView(BattleState s) {
+        // Primordial Sea / Desolate Land block every other weather while their source is out: a pending Mega
+        // Charizard-Y's Drought does nothing then (log 24 #33: the engine counted on a sun that could not come while
+        // Primal Kyogre stood, so Mega Evolving looked like a loss and knocking Kyogre out looked less urgent).
+        if (s.field.primal) return s;
         for (int i = 0; i < s.slots(); i++) {
             Battler m = s.my(i);
             if (m == null || !m.alive() || m.pendingMega == null || m.pendingMega.ability == null) continue;
@@ -701,7 +705,7 @@ public final class Evaluator {
         String w = s.field.weather;
         // A pending Mega with a weather ability will (re)start its weather when it evolves.
         String megaWeather = null;
-        for (Battler x : new Battler[] {a, b}) {
+        for (Battler x : s.field.primal ? new Battler[0] : new Battler[] {a, b}) {
             if (x.pendingMega != null && x.pendingMega.ability != null) {
                 String mw = com.manueeh.cobbleai.data.AbilityDex.ENTRY_WEATHER.get(x.pendingMega.ability);
                 if (mw != null && (!mw.equals(w) || s.field.weatherTurns <= 1)) megaWeather = mw;
