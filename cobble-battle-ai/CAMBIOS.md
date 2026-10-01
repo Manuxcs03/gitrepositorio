@@ -66,3 +66,20 @@ el daño de Poder Solar al final del turno lo dejaron al 1%, y la comprobación 
 eligiendo Somnífero ahí (con sol Venusaur es más rápido y dormir a Arcanine vale mucho, y en el combate #6 de
 este mismo log le salió bien), pero ahora el panel lo avisa:
 "Jugada arriesgada: si Somnífero falla (25%), Arcanine puede debilitar a Venusaur". Ahí puedes decidir tú.
+
+## Log 22: derrota contra Ranger Talia (#10)
+
+En el turno 1, Somnífero falló contra Charizard y Onda Ígnea debilitó a Venusaur. Después, su Venusaur con
+Clorofila (más rápido que todo tu equipo con sol) durmió a un Pokémon por turno, y su Hitmontop con Vastaguardia
+bloqueó tus ataques de área. Contra esa combinación tu equipo lo tiene muy difícil, pero la derrota empezó por
+el fallo de Somnífero, y no por pura mala suerte:
+
+- Es la **tercera derrota en los últimos logs que empieza igual** (Somnífero falla y cae Venusaur). En los tres
+  logs: 31 Somníferos, 9 fallos y 3 Venusaur debilitados después de fallar, los tres en combates perdidos.
+- El fallo de fondo: la IA solo tenía en cuenta el "caso de mala suerte" si una rama de la simulación
+  tenía al menos un 20 % de probabilidad. Un fallo del 25 % que después se dividía por la tirada de daño (en
+  ramas de 7 % y 18 %) quedaba invisible.
+- Ahora las ramas se agrupan según qué Pokémon tuyos caen antes de aplicar el umbral, así que "25 % de perder a
+  Venusaur" cuenta entero. Esto vale para cualquier movimiento impreciso, no solo para Somnífero.
+- Resultado: contra Talia (turno 1) ahora elige Protección + Estallido en vez de Somnífero. En la repetición de
+  Cira (#4, turno 2) Somnífero sigue ganando por poco, pero el panel avisa del riesgo.

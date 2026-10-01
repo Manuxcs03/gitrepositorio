@@ -386,17 +386,30 @@ public final class Planner {
      * Expected evaluation over the luck of the turn (accuracy, damage rolls, speed ties, status landing),
      * tilted towards its likely bad-luck branch. A plain average let a 75% Sleep Powder beat a safe Protect
      * although the miss left Venusaur dead to Fake Out + Flare Blitz on turn 1 (Cira).
+     * Outcomes are grouped by which of our Pokemon faint before the size test: a 25% miss that a later damage roll
+     * splits into 7% and 18% branches is still a 25% chance of losing the user (logs 20-22: three Sleep Powder misses,
+     * three dead Venusaur, each in a lost fight), and it went unseen while each branch was judged alone.
      */
     private static double expectedEval(List<TurnSimulator.Outcome> outs) {
-        double v = 0, p = 0, worst = Double.MAX_VALUE;
+        double v = 0, p = 0, single = Double.MAX_VALUE;
+        Map<String, double[]> groups = new HashMap<>();
         for (TurnSimulator.Outcome o : outs) {
             double e = Evaluator.evaluate(o.state());
             v += o.prob() * e;
             p += o.prob();
-            if (o.prob() >= LUCK_WORST_PROB) worst = Math.min(worst, e);
+            if (o.prob() >= LUCK_WORST_PROB) single = Math.min(single, e);
+            StringBuilder key = new StringBuilder();
+            for (Battler b : o.state().myTeam) key.append(b.alive() ? '1' : '0');
+            double[] g = groups.computeIfAbsent(key.toString(), k -> new double[2]);
+            g[0] += o.prob() * e;
+            g[1] += o.prob();
         }
         if (p <= 0) return 0;
-        double mean = v / p;
+        // The worst single likely branch still counts on its own (as before); the groups only add cases.
+        double mean = v / p, worst = single;
+        for (double[] g : groups.values()) {
+            if (g[1] >= LUCK_WORST_PROB) worst = Math.min(worst, g[0] / g[1]);
+        }
         if (worst == Double.MAX_VALUE || worst >= mean) return mean;
         return (1 - LUCK_RISK) * mean + LUCK_RISK * worst;
     }

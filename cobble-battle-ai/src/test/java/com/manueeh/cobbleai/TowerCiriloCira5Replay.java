@@ -105,6 +105,33 @@ public final class TowerCiriloCira5Replay {
         return new Planner(new Planner.Options()).decide(st, Tower31Replay.reqs(st, List.of(2, 3), List.of(2, 3)));
     }
 
+    /** Log 22 #10 Talia T1: their Chlorophyll Venusaur (Sleep Powder) + Drought Charizard. Ours slept Charizard, missed. */
+    static Planner.Plan taliaTurn1() {
+        Battler venu = Tower31Replay.venusaur();
+        Battler tork = Tower31Replay.torkoal();
+        Battler zard = estimated(mon("Charizard", false, 50, new int[] {153, 135, 98, 232, 105, 167}, "fire", "flying"));
+        MoveInfo hw = mv("heatwave", "fire", Category.SPECIAL, 95, "allAdjacentFoes");
+        hw.accuracy = 0.9;
+        zard.moves = new ArrayList<>(List.of(mv("airslash", "flying", Category.SPECIAL, 75), hw,
+            mv("protect", "normal", Category.STATUS, 0, "self"), guess(mv("ancientpower", "rock", Category.SPECIAL, 60))));
+        zard.possibleAbilities = List.of("drought");
+        Battler fv = estimated(mon("Venusaur", false, 50, new int[] {155, 113, 103, 167, 120, 132}, "grass", "poison"));
+        fv.ability = "chlorophyll";
+        fv.item = "leftovers";
+        fv.itemUnknown = false;
+        MoveInfo sp = mv("sleeppowder", "grass", Category.STATUS, 0, "normal");
+        sp.accuracy = 0.75;
+        fv.moves = new ArrayList<>(List.of(mv("gigadrain", "grass", Category.SPECIAL, 75),
+            mv("protect", "normal", Category.STATUS, 0, "self"), sp, mv("sludgebomb", "poison", Category.SPECIAL, 90)));
+        BattleState st = EngineScenarios.state(true, List.of(venu, tork, Tower31Replay.garchomp(), Tower31Replay.charizard(false)),
+            List.of(zard, fv));
+        st.field.weather = "sun";
+        st.field.weatherTurns = 5;
+        st.oppUnseenReserves = 2;
+        last = st;
+        return new Planner(new Planner.Options()).decide(st, Tower31Replay.reqs(st, List.of(2, 3), List.of(2, 3)));
+    }
+
     static boolean switchesIn(Planner.Plan p, int idx) {
         for (Action a : p.actions) if (a.kind == Action.Kind.SWITCH && a.switchTo == idx) return true;
         return false;
@@ -150,6 +177,16 @@ public final class TowerCiriloCira5Replay {
         // If the line still gambles on the 75% Sleep Powder, the player must at least see what a miss costs.
         boolean warned = !sleeps || !adv.gambles.isEmpty();
         report("cira T2: a Sleep Powder whose miss loses Venusaur is not played silently", warned, p);
+        talia();
+    }
+
+    static void talia() {
+        Planner.Plan p = taliaTurn1();
+        Advisor.Advice adv = Advisor.advise(last, p);
+        boolean sleeps = false;
+        for (Action a : p.actions) sleeps |= a.kind == Action.Kind.MOVE && "sleeppowder".equals(a.move.id);
+        System.out.println("  [info] talia22 T1: " + Tower31Replay.label(p) + " " + EngineScenarios.describe(p) + " || " + adv);
+        report("talia22 T1: a Sleep Powder whose miss loses Venusaur is not played silently", !sleeps || !adv.gambles.isEmpty(), p);
     }
 
     public static void main(String[] args) {
