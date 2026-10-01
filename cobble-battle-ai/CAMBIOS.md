@@ -83,3 +83,27 @@ el fallo de Somnífero, y no por pura mala suerte:
   Venusaur" cuenta entero. Esto vale para cualquier movimiento impreciso, no solo para Somnífero.
 - Resultado: contra Talia (turno 1) ahora elige Protección + Estallido en vez de Somnífero. En la repetición de
   Cira (#4, turno 2) Somnífero sigue ganando por poco, pero el panel avisa del riesgo.
+
+## Log 23: derrota contra Experto Cirilo (#26)
+
+Es el mismo rival que en el log 21 y el combate se torció en el mismo punto. Turno 1 bien: Estallido tumbó a
+Tornadus, pero Tornadus ya había puesto Viento Afín (Bromista). Con viento a favor, Latios y Metagross son más
+rápidos que todo tu equipo y los dos tienen ataques Psíquicos contra Venusaur. Lo que pasó:
+
+- **Turno 2:** Charizard entró en lugar de Venusaur y cayó por Psicocolmillo más Poder Solar. Para la IA era casi
+  un empate con Garchomp (diferencia de 0.02): los dos estaban al alcance de Cometa Draco de Latios, y el modelo daba
+  un 28 % de que Charizard cayera. Salió la tirada alta. No es un fallo claro.
+- **Turno 3:** Latios usó Cometa Draco (con Gema Dragón) sobre Garchomp en vez de repetir Psíquico contra Torkoal
+  (la IA daba un 89 % a esto último). En los cuatro logs, un rival con su objetivo anterior todavía en el campo
+  vuelve a atacarlo un 73 % de las veces, así que esto era el 27 % restante.
+- **Turno 4:** Venusaur atacó y Metagross lo debilitó antes con Psicocolmillo, cuando un Protección lo habría
+  salvado. Medido en los logs: cuando acabas de meter un Pokémon nuevo al lado del objetivo anterior, el rival
+  cambia de objetivo un 40 % de las veces (frente al 27 % normal).
+
+Cambio general: la costumbre de "repetir objetivo" del modelo del rival cuenta la mitad cuando hay un Pokémon
+recién entrado a su lado. En una repetición del turno 4 la IA elige Protección con Venusaur y Onda Ígnea con
+Torkoal. Probé también a hacer el modelo del rival menos predecible en general, pero rompía una repetición
+anterior, así que lo descarté.
+
+Este rival es un mal emparejamiento para un equipo de sol: Viento Afín con Bromista, un Latios que resiste el
+fuego y dos atacantes Psíquicos contra Venusaur.

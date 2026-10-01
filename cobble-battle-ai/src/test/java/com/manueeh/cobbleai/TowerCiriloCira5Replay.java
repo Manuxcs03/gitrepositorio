@@ -132,6 +132,50 @@ public final class TowerCiriloCira5Replay {
         return new Planner(new Planner.Options()).decide(st, Tower31Replay.reqs(st, List.of(2, 3), List.of(2, 3)));
     }
 
+    /** Log 23 #26 Cirilo T4: Venusaur fresh in, Torkoal 37%, foes Latios 37% (-2 SpA) and Metagross 22%, Tailwind 1 turn
+     *  left. Venusaur Giga Drained and fell to Psychic Fangs first; a Protect saved it while Heat Wave KO'd Metagross. */
+    static Planner.Plan cirilo26Turn4() {
+        Battler venu = Tower31Replay.venusaur();
+        Battler tork = Tower31Replay.torkoal();
+        tork.hp = tork.maxHp * 0.37;
+        tork.turnsActive = 3;
+        tork.lastMove = "protect";
+        tork.protectStreak = 1;
+        Battler zard = Tower31Replay.charizard(false);
+        zard.hp = 0;
+        Battler chomp = Tower31Replay.garchomp();
+        chomp.hp = 0;
+        Battler latios = estimated(mon("Latios", false, 50, new int[] {155, 121, 110, 180, 130, 178}, "dragon", "psychic"));
+        latios.hp = latios.maxHp * 0.37;
+        latios.boosts[2] = -2;
+        MoveInfo draco = mv("dracometeor", "dragon", Category.SPECIAL, 130);
+        draco.accuracy = 0.9;
+        MoveInfo iw = mv("icywind", "ice", Category.SPECIAL, 55, "allAdjacentFoes");
+        iw.accuracy = 0.95;
+        latios.moves = new ArrayList<>(List.of(draco, iw, mv("protect", "normal", Category.STATUS, 0, "self"),
+            mv("psychic", "psychic", Category.SPECIAL, 90)));
+        latios.turnsActive = 3;
+        latios.lastMove = "dracometeor";
+        latios.lastTarget = chomp.uuid;
+        Battler meta = estimated(mon("Metagross", false, 50, new int[] {155, 216, 150, 136, 110, 178}, "steel", "psychic"));
+        meta.hp = meta.maxHp * 0.22;
+        MoveInfo bp = mv("bulletpunch", "steel", Category.PHYSICAL, 40);
+        bp.priority = 1;
+        meta.moves = new ArrayList<>(List.of(bp, mv("highhorsepower", "ground", Category.PHYSICAL, 95),
+            mv("psychicfangs", "psychic", Category.PHYSICAL, 85), guess(mv("protect", "normal", Category.STATUS, 0, "self"))));
+        meta.turnsActive = 2;
+        meta.lastMove = "highhorsepower";
+        meta.lastTarget = tork.uuid;
+        BattleState st = EngineScenarios.state(true, List.of(venu, tork, zard, chomp), List.of(latios, meta));
+        st.field.weather = "sun";
+        st.field.weatherTurns = 2;
+        st.field.theirs.tailwind = true;
+        st.field.theirs.tailwindTurns = 1;
+        st.oppUnseenReserves = 1;
+        last = st;
+        return new Planner(new Planner.Options()).decide(st, Tower31Replay.reqs(st, List.of(), List.of()));
+    }
+
     static boolean switchesIn(Planner.Plan p, int idx) {
         for (Action a : p.actions) if (a.kind == Action.Kind.SWITCH && a.switchTo == idx) return true;
         return false;
@@ -178,6 +222,8 @@ public final class TowerCiriloCira5Replay {
         boolean warned = !sleeps || !adv.gambles.isEmpty();
         report("cira T2: a Sleep Powder whose miss loses Venusaur is not played silently", warned, p);
         talia();
+        Planner.Plan c4 = cirilo26Turn4();
+        System.out.println("  [info] cirilo26 T4: " + Tower31Replay.label(c4) + " " + EngineScenarios.describe(c4) + TowerRuben3Replay.policy(last));
     }
 
     static void talia() {
